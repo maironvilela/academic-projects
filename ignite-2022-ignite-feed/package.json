@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "lint": "eslint src --max-warnings=0 --fix",
+    "preview": "vite preview",
+    "prepare": "cd .. && husky install ./ignite-2022-ignite-feed/.husky"
   },
   "dependencies": {
+    "husky": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -25,9 +28,16 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "git-commit-msg-linter": "^4.1.3",
+    "lint": "^0.7.0",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "react-hooks": "^1.0.1",
     "typescript": "^4.6.4",
     "vite": "^3.0.7"
+  },
+  "lint-staged": {
+    "src/**/*": [
+      "yarn lint --fix"
+    ]
   }
 }
