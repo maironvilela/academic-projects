@@ -1,7 +1,13 @@
-import './App.css';
+import { Header, Profile } from './components';
+import './styles/global.css';
 
 function App() {
-  return <h1>Home</h1>;
+  return (
+    <>
+      <Header />
+      <Profile />
+    </>
+  );
 }
 
 export default App;

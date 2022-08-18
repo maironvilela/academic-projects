@@ -1,0 +1,70 @@
+.aside{
+  width: 25.6rem;
+  overflow: hidden;
+  background: var(--gray-600);   
+  color: white;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+aside strong{
+  margin-top: 1.6rem;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+aside > span{
+  margin-top: 1.2rem;
+  line-height: 1.6;
+  font-size: 1.4rem;
+  color: var(--gray-300);
+}
+
+.cover img{
+  width: 100vw;
+  height: 7.2rem;
+  object-fit: cover;
+}
+
+.avatar img{
+  width:50px;
+  height:50px;
+  border-radius: 8px;
+  border: 4px solid var(--gray-700);
+  outline: 2px solid var(--green-100);
+  margin-top: -25px;
+  text-align: center;       
+}
+
+.footer{
+  margin-top: 2.4rem;
+  border-top: 1px solid var(--gray-500);
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 2rem 2rem;
+}
+
+.footer a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.6rem;
+  border: 1px solid var(--green-100);
+  margin-top: 2.4rem;
+  color: var(--green-100);
+  font-weight: bold;
+  border-radius: 8px;
+
+  gap: 1rem;
+
+  transition: 0.2s
+}
+
+.footer a:hover{
+  background-color: var(--green-200);
+  color: var(--white)
+}
+
