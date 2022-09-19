@@ -6,7 +6,6 @@ function App() {
   return (
     <>
       <Header />
-      <Profile />
       <div className={styles.content}>
         <Profile />
         <Feed />
