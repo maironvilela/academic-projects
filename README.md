@@ -10,4 +10,12 @@
 <br/>
 <br/>
 
-# Projeto 01
+# Projeto NLW-ESPORTS
+
+<a href="https://github.com/maironvilela/academic-projects/tree/main/nlw-esports">
+    <img src="https://user-images.githubusercontent.com/4884154/190933110-53a7540d-f31d-4ac0-9d39-8b95d967652e.png"/>
+</a>
+
+
+
+ 

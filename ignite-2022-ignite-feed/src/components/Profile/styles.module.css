@@ -36,7 +36,6 @@ aside > span{
   border: 4px solid var(--gray-700);
   outline: 2px solid var(--green-100);
   margin-top: -25px;
-  text-align: center;       
 }
 
 .footer{
@@ -57,9 +56,7 @@ aside > span{
   color: var(--green-100);
   font-weight: bold;
   border-radius: 8px;
-
   gap: 1rem;
-
   transition: 0.2s
 }
 
