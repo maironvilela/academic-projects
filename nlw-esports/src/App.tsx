@@ -1,8 +1,7 @@
+import "./styles/main.css"
 
  function App() {
-  return (
-    <p>TESTE</p>
-  ) 
+   
 }
 
 export default App
