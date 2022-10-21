@@ -2,6 +2,7 @@ import './styles/global.css';
 
 export function App() {
     return(
-        <h1 className="font-bold">Home</h1>
+        <button className="bg-gray-100 text-2xl" >SALVAR</button>
+
     );}
 
