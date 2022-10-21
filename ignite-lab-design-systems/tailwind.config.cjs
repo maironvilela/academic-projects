@@ -5,13 +5,16 @@ module.exports = {
     theme: {
         fontSize: {
             xs: 14,
-            sn: 16,
+            sm: 16,
             md: 18,
             lg: 20,
             xl: 24,
             '2xl': 32
         },
         colors:{
+            'black': '#000000',
+            'white': '#FFFFFF',
+
             'gray-100': '#E1E1E6',
             'gray-200': '#C4C4CC',
             'gray-500': '#7C7C7C',
