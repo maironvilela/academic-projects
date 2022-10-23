@@ -13,5 +13,12 @@ module.exports = {
   },
   "features": {
     "storyStoreV7": true
+  },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/academic-projects/'
+    }
+
+    return config
   }
 }
